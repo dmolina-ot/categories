@@ -1,0 +1,9 @@
+{
+  "name": "categories",
+  "version": "0.0.1",
+  "author": "David Molina",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  }
+}
