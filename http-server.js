@@ -13,7 +13,8 @@ function init(route, handle) {
     //})
   }
 
-    var port=process.env.VCAP_APP_PORT || 8888;
+    //var port=process.env.VCAP_APP_PORT || 8888;
+    var port = process.env.PORT || 5000;
     http.createServer(onRequest).listen(port);
     console.log('HTTPServer --> Servidor iniciado en el puerto ' + port);
 
